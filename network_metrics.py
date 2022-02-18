@@ -429,8 +429,7 @@ def process_tiff_stacks(filename):
 		f1.close()
 #modifying the joining detection script to measure the angle of Sisi's nanotubes relative to the x-axis of her images 
 
-#constants
-#constants
+
 tube_width = 5.0
 length_cutoff = 3.0 
 eccentricity_cutoff = 0.5

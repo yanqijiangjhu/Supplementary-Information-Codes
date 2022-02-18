@@ -1,8 +1,6 @@
 import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt 
-#from networkx.drawing.nx_agraph import graphviz_layout
-#from datetime import datetime
 import pdb
 #startTime = datetime.now()
 

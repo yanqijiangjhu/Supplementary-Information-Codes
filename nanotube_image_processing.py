@@ -7,7 +7,7 @@ from skimage import io
 from skimage.filters import threshold_minimum
 from skimage.filters import threshold_otsu
 
-image = io.imread("Lime 10.tif")
+image = io.imread("image")
 
 thresh = threshold_otsu(image)
 binary = image > thresh

@@ -16,3 +16,7 @@ Output files in project directory: simulation_time.dat, average_network_size_of_
 **Additional packages to install before running**
 
 This project relies on a number of Python packages, including pd Prior to running the Python files, users may need to install the Networkx package (https://networkx.org/documentation/stable/install.html). Note that these Python codes are designed to be run with Python version 3.
+
+**Note**
+
+In the simulation, we used a different expression to represent the K joining rate - we used K_join_fact instead. To make it clear, the 'fact(or)' means the additional multiplying factor to the cited K joining rate of 3.86e6/M/s. For example, when K_join_fact is 0.5, it equals to a K joining rate of 1.93e6/M/s. In order to make the simulation free of long numbers, we used factors 0.05, 0.1, 0.25, 0.33, 0.5, 0.75, and 1.0 instead.

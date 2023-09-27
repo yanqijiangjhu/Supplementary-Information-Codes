@@ -13,6 +13,10 @@ The general protocol of the script is as follows: compute pairwise joining rate 
 
 Output files in project directory: simulation_time.dat, average_network_size_of_a_seed.dat, network_size_count.dat (for each time step being printed out), largest_network_tracking.dat
 
+'make_histograms' is the script to generate network size distribution and print out the txt files of simulated networks named after 'xxhr_kjoinfact_xxx_50iters_toxxxseeds_simdata.txt'.
+
+To make it more straight for figure 5 and 6 generations, we reorganized the files and in sub-folders of 'Figure 5/6_codes and input', the Figures 5 and 6 in the paper could be generated directly.
+
 **Additional packages to install before running**
 
 This project relies on a number of Python packages, including pd Prior to running the Python files, users may need to install the Networkx package (https://networkx.org/documentation/stable/install.html). Note that these Python codes are designed to be run with Python version 3.

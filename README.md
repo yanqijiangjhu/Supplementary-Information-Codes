@@ -2,6 +2,7 @@
 Codes for network detection and analysis from paper _Hierarchical Assembly and Characterization of DNA Nanotube Networks Using Y-Shaped DNA Origami Seeds_
 
 **Project Description**
+
 ***Network growth simulation***
 The goal of this project is to investigate hierarchical network forming for origami-based Y-shaped seeds. The script ‘Gillespie_algorithm_simulation.ipynb’ may be run on individual files as it will output multiple data files. 
 
